@@ -1,0 +1,34 @@
+@charset "UTF-8"; 
+
+/*Estilo de todas as paginas de redes sociais*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*COMO ESCONDER A BARRA DE ROLAGEM*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+img {
+    width: 100vw;
+}
+
+/*Botão*/
+a {
+    display: block;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: red;
+}
